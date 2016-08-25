@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group: 'org.processing', name: 'core', version: '2.2.1'
+    testCompile 'junit:junit:4.12'
+}
